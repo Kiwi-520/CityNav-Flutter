@@ -1,0 +1,56 @@
+name: citynav
+description: CityNav - Smart City Navigation for India. MVP Phase 1.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: '>=3.13.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Maps - OpenStreetMap (no API key needed)
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Location
+  geolocator: ^11.0.0
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Local storage
+  shared_preferences: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # HTTP
+  http: ^1.2.1
+
+  # Utils
+  url_launcher: ^6.3.0
+  connectivity_plus: ^6.0.3
+  permission_handler: ^11.3.1
+  intl: 0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/

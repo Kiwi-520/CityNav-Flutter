@@ -2,6 +2,7 @@
 
 Smart city navigation app for Indian cities.
 Built with Flutter · OpenStreetMap · Riverpod · GoRouter
+
 **Design System: Indigo Metro**
 
 ---
